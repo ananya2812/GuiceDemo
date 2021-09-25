@@ -14,9 +14,9 @@ public class DemoApplication {
 
 	private static void sendRequest(String requestType) {
 		if (requestType.equals(SQUARE_REQ)) {
-			DrawShape shape = new DrawSquare();
-			SquareRequest req = new SquareRequest(shape);
-			req.makeRequest();
+//			DrawShape shape = new DrawSquare("Red",10);
+//			SquareRequest req = new SquareRequest(shape);
+//			req.makeRequest();
 		}
 	}
 }

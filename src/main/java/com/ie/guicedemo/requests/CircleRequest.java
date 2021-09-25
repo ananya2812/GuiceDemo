@@ -1,13 +1,13 @@
 package com.ie.guicedemo.requests;
 
 import com.google.inject.Inject;
-import com.ie.guicedemo.annotations.Square;
+import com.google.inject.name.Named;
 import com.ie.guicedemo.services.DrawShape;
 
-public class SquareRequest {
+public class CircleRequest {
 
 	@Inject
-	@Square
+	@Named("Circle")
 	DrawShape shape;
 
 	public void makeRequest() {
